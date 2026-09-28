@@ -1,9 +1,7 @@
 pipeline {
     agent any
 
-    tools {
-         // Use the specified Python version
-    }
+  
 
     environment {
         REPO_URL = "https://github.com/prateekambani/python-app.git"
