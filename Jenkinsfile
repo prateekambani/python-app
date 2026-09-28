@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+         // Use the specified Python version
+    }
+
     environment {
         REPO_URL = "https://github.com/prateekambani/python-app.git"
         REPO_DIR = "${WORKSPACE}/python-app"  // Use Jenkins workspace directory
